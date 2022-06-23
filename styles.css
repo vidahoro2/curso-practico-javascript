@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Quicksand:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    display:flex ;
+    height: 10rem;
+    background: #C5D5EA;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    
+
+}
+
+header p{
+    font-size: 2rem;
+    align-self: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background:#C5D5EA ;
+    font-size: 1.5rem;
+}
+.containerTyC{
+    display: flex;
+    flex-direction: row;
+    height: 28rem;
+    background: #B3C5D7;
+    padding: 2rem 2rem;
+    
+
+}
+.CuadradoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 2rem;
+    text-align: center;
+    
+}
+.TrianguloContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 2rem;
+    text-align: center;
+}
+.CirculoContainer{
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+    
+
+}
+.Form-Circulo-Container{
+    display: flex;
+    flex-direction: column;
+    background: #B3C5D7;
+    padding: 2rem 2rem;
+    height: 100%;
+
+}
+form{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    line-height: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.form-circulo{
+    display: flex;
+    height: 100%;
+}
+.Input-Circle{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    display: inline-block;
+    width: 35rem;
+    margin: auto;
+}
+.square-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.triangle-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 0.7rem auto;
+}
+.Circle-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 0.7rem auto;
+
+}
+button{
+    margin: 0.5rem 0;
+    display: inline-block;
+    height: 4rem;
+    width: 10rem;
+    border: solid 1px black;
+    border-radius: 5px;
+    background: #C5D5EA ;
+    margin: 0 1rem;
+    font-family:'Quicksand', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+
+}
+
+@media (max-width:425px) {
+    .containerTyC{
+        flex-direction: column;
+    }
+    
+}
