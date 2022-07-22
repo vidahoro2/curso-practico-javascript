@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentaje y descuentos</title>
+    <link rel="stylesheet" href="styles2.css">
+
+</head>
+<body>
+
+    <header><h1>Porcentajes y descuentos</h1>
+        <p>Este es el segundo taller del curso práctico de JS</p></header>
+    <section>
+        <h2>Calcular el precio a pagar de tus productos con descuento</h2>
+
+        <section class="form-container">
+            <form action="">
+                <label for="InputPrice">Escribe el precio de tu producto</label>
+                <input type="number" id="InputPrice">
+
+                <label for="InputDiscount">Escribe el descuento de tu producto</label>
+                <input type="number"  id="InputDiscount">
+                <button type="button" onclick="onClickButtonPriceDiscount()">
+                    Calcular el precio con descuento
+                </button>
+                <section class="ParrafosDesc">
+                    <p class="ParrafoDescuento">El Precio con descuento es:</p>
+                    <p id="ResultP"> </p>
+                </section>
+
+            </form>
+        </section>
+        
+    </section>
+
+
+    <script src="descuentos.js"></script>
+</body>
+</html>
